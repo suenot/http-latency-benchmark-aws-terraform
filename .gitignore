@@ -1,0 +1,25 @@
+.DS_Store
+*.pem
+set_aws_envs.sh
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfvars
+*.override.tf
+*.override.tf.json
+*.terraform.lock.hcl
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
